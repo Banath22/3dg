@@ -1,8 +1,10 @@
 <header>
 	<ul>
-		<li></li>
-		<li></li>
-		<li></li>
-		<li></li>
+		<li>Home</li>
+		<li>News</li>
+		<li>Tour</li>
+		<li>Music</li>
+		<li>Photos</li>
+		<li>About</li>
 	</ul>
 </header>

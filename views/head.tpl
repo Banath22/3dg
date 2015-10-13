@@ -5,7 +5,7 @@
         <title>{$title}</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width">
-
+        <link href='https://fonts.googleapis.com/css?family=Slabo+27px' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" href="css/main.css">
 
     </head>

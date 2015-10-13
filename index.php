@@ -14,6 +14,8 @@ $templateParser->assign('title', 'Three Days Grace');
 // Toon de template: output html
 $templateParser->display('head.tpl');
 
+$templateParser->display('header.tpl');
+
 // Haal de nieuws artikelen op
 require 'logic/select_newsarticles.php';
 // Toon de nieuwsberichten. Oude stijl:
