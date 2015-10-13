@@ -10,7 +10,7 @@ require 'includes/bootstrap.php' ;
 require_once 'includes/database.php' ;
 
 // Koppel de waarde van de paginatitel aan te smarty tag 'title'
-$templateParser->assign('title', 'Me First And The Gimme Gimmes');
+$templateParser->assign('title', 'Three Days Grace');
 // Toon de template: output html
 $templateParser->display('head.tpl');
 
@@ -18,5 +18,7 @@ $templateParser->display('head.tpl');
 require 'logic/select_newsarticles.php';
 // Toon de nieuwsberichten. Oude stijl:
 // Bouw dit om naar een template systeem
-include 'views/newsarticles.php' ;
+$templateParser->assign('data', $result);
+
+$templateParser->display('views/newsarticles.tpl') ;
 
