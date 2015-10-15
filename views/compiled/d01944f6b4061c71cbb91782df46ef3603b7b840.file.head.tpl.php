@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.18, created on 2015-10-13 17:06:49
+<?php /* Smarty version Smarty-3.1.18, created on 2015-10-14 14:33:03
          compiled from "views\head.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:3069755f65f5f267600-47211148%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'd01944f6b4061c71cbb91782df46ef3603b7b840' => 
     array (
       0 => 'views\\head.tpl',
-      1 => 1444748731,
+      1 => 1444825967,
       2 => 'file',
     ),
   ),
@@ -32,6 +32,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width">
         <link href='https://fonts.googleapis.com/css?family=Slabo+27px' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" href="css/main.css">
 
     </head>

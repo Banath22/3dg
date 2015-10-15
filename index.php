@@ -16,6 +16,9 @@ $templateParser->display('head.tpl');
 
 $templateParser->display('header.tpl');
 
+
+$templateParser->display('footer.tpl');
+
 // Haal de nieuws artikelen op
 require 'logic/select_newsarticles.php';
 // Toon de nieuwsberichten. Oude stijl:

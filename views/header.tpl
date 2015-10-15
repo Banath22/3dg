@@ -7,4 +7,5 @@
 		<li>Photos</li>
 		<li>About</li>
 	</ul>
+	<hr>
 </header>
