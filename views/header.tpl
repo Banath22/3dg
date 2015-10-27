@@ -1,7 +1,7 @@
 <header>
 	<ul>
-		<li>Home</li>
-		<li>News</li>
+		<li><a href="?page=home">Home</a></li>
+		<li><a href="?page=news">News</a></li>
 		<li>Tour</li>
 		<li>Music</li>
 		<li>Photos</li>

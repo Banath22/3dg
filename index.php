@@ -14,16 +14,33 @@ $templateParser->assign('title', 'Three Days Grace');
 // Toon de template: output html
 $templateParser->display('head.tpl');
 
+$page = (empty($_GET['page'])) ? '' : $_GET['page'];
+
 $templateParser->display('header.tpl');
+
+switch($page){
+	case'home':
+		require 'logic/select_newsarticles.php';
+		$templateParser->assign('data', $result);
+		$templateParser->display('home.tpl');
+	break;
+	case'news':
+		require 'logic/select_newsarticles.php';
+		$templateParser->assign('data', $result);
+		$templateParser->display('views/newsarticles.tpl') ;
+	break;
+	default:
+		$templateParser->display('home.tpl');
+	break;
+}
+
+
+require 'logic/select_newsarticles.php';
 
 
 $templateParser->display('footer.tpl');
 
 // Haal de nieuws artikelen op
-require 'logic/select_newsarticles.php';
 // Toon de nieuwsberichten. Oude stijl:
 // Bouw dit om naar een template systeem
-$templateParser->assign('data', $result);
-
-$templateParser->display('views/newsarticles.tpl') ;
 
