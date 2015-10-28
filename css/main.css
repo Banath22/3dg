@@ -49,6 +49,18 @@ li{
 	padding: 0rem 2rem;
 }
 
+a{
+	color: #fff;
+}
+
+a:hover{
+	color: rgb(170,30,100);
+}
+
+.selected{
+	color: rgb(170,30,100);
+}
+
 footer{
 	width: 100%;
 	position: auto;

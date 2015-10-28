@@ -15,7 +15,7 @@ $templateParser->assign('title', 'Three Days Grace');
 $templateParser->display('head.tpl');
 
 $page = (empty($_GET['page'])) ? '' : $_GET['page'];
-
+$templateParser->assign('curr_page',$page);
 $templateParser->display('header.tpl');
 
 switch($page){
